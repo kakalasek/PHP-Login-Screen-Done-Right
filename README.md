@@ -1,0 +1,1 @@
+Vytvořeno podle těchto tutoriálů: https://youtu.be/Ojk70Ag8Ofs ; https://youtu.be/XDz9SMYyTQo
