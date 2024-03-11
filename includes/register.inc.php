@@ -29,8 +29,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
             header("Location: ../register.php");
         }
 
-        createUser();
+        createUser($conn, $username, $passwd);
 
+        header("Location: ../index.php?signup=success");
+
+        $conn = Dbh::close();
+        $stmt = null;
+
+        die();
     } catch (PDOException $e) {
         die("Query failed: " . $e->getMessage());
     }

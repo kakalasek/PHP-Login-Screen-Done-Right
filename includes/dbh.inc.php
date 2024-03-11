@@ -28,5 +28,6 @@ class Dbh
         if(self::$connection) {
             self::$connection = null;
         }
+        return null;
     }
 }

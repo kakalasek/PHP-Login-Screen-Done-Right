@@ -15,3 +15,7 @@ function isUsernameTaken(object $pdo, string $username): bool{
     }
     return false;
 }
+
+function createUser(object $pdo, string $username, string $passwd){
+    setUser($pdo, $username, $passwd);
+}
