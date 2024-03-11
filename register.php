@@ -9,7 +9,7 @@
    
     <h3>Register</h3>
 
-    <form action="register.inc.php" method="post">
+    <form action="includes/register.inc.php" method="post" class="register-form">
         <label for="username">Enter your username:</label>
         <input id="username" type="text" name="username">
 
